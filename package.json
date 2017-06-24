@@ -1,0 +1,24 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ flappyBrid --platform=win32 --arch=x64 --overwrite --ignore=node_modules --icon=./app/img/icon.ico"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "wodb",
+  "license": "",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.1"
+  }
+}
